@@ -2,11 +2,14 @@
 
 ## Descrizione
 
-L'applicazione è stata progettata per aiutare i piloti di volo a vela nella creazione di modelli meteorologici. L'applicazione fornisce un rendering 3D e 2D di una montagna, una previsione d'onda(leewave) generalizzata e una previsione dettagliata dell'innesco di una termica per il mondo del volo a vela.
+L'applicazione è stata progettata per aiutare i piloti di volo a vela nella creazione di modelli meteorologici. 
+Fornisce un rendering 3D e 2D di una montagna, una previsione d'onda(leewave) e una previsione dettagliata dell'innesco di una termica per il mondo del volo a vela.
 
 ## Caratteristiche
 
 - Rendering 3D e 2D di una montagna
+![3D rendering](/path/to/3D/image.png)
+![2D rendering](/path/to/2D/image.png)
 - Previsione d'onda(leewave) generalizzata
 - Previsione dettagliata dell'innesco di una termica
 
