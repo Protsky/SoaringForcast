@@ -1,9 +1,12 @@
 const express = require("express");
 const axios = require("axios");
+require('dotenv').config()
 
 const app = express();
 
-const apiKey = "AIzaSyAL-yacOreZug0zLTp3Rt85rXRMzSSQkcQ";
+const apiKey = process.env.API_KEY
+console.log(apiKey);
+
 
 app.get("/elevation", async (req, res) => {
   const { lat, lng } = req.query;
