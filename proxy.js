@@ -5,7 +5,6 @@ require('dotenv').config()
 const app = express();
 
 const apiKey = process.env.API_KEY
-console.log(apiKey);
 
 
 app.get("/elevation", async (req, res) => {
