@@ -11,6 +11,19 @@ cd openfoam-weather-forecast`
 
 `npm install`
 
+## Tutorial: Setting API Key in .env
+
+To use the weather API, you'll need to set your google_place API key in a `.env` file. Here's how:
+
+1. Create a `.env` file in the root directory of your project.
+2. Add the following line to the proxy file: `WEATHER_API_KEY=your_api_key_here`.
+3. Replace `your_api_key_here` with your actual API key.
+4. Save the file.
+
+Now your API key is set and you can use it in your code by accessing the environment variable `process.env.WEATHER_API_KEY`.
+
+
+
 ## Usage
 
 To use this application, run the following command in the terminal:
