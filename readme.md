@@ -8,8 +8,9 @@ Fornisce un rendering 3D e 2D di una montagna, una previsione d'onda(leewave) e 
 ## Caratteristiche
 
 - Rendering 3D e 2D di una montagna
-![3D rendering](public/image1.png)
-![2D rendering](public/image2.png)
+![3D rendering](public/image1.png "3D rendering")
+![2D rendering](public/image2.png "2D rendering")
+
 - Previsione d'onda(leewave) generalizzata
 - Previsione dettagliata dell'innesco di una termica
 
