@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import GeographicLib from "geographiclib";
 import Plot from "react-plotly.js";
-import MountainElevation from "../src/components/MountainElevations"
+import MountainElevation from "../Model/3dRendering"
 
 const App = () => {
   const [elevations, setElevations] = useState([]);

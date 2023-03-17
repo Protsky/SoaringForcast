@@ -1,25 +1,50 @@
-# Applicazione per la creazione di modelli meteorologici per il volo a vela
+# Advanced Weather Forecast using OpenFOAM
 
-## Descrizione
+This project aims to generate advanced weather forecasts using OpenFOAM to simulate lee waves and thermal forecasts in a specific regions.
 
-L'applicazione è stata progettata per aiutare i piloti di volo a vela nella creazione di modelli meteorologici. 
-Fornisce un rendering 3D e 2D di una montagna, una previsione d'onda(leewave) e una previsione dettagliata dell'innesco di una termica per il mondo del volo a vela.
+## Getting Started
 
-## Caratteristiche
+To get started with this project, simply clone the repository and install the required dependencies using the following commands:
 
-- Rendering 3D e 2D di una montagna
-![3D rendering](public/image1.png "3D rendering")
-![2D rendering](public/image2.png "2D rendering")
+`git clone https://github.com/<your-username>/openfoam-weather-forecast.git
+cd openfoam-weather-forecast`
 
-- Previsione d'onda(leewave) generalizzata
-- Previsione dettagliata dell'innesco di una termica
+`npm install`
 
-## To-Do List
+## Usage
 
-- Implementare il rendering del modello 3D e 2D di una montagna
-- Generalizzare la previsione d'onda(leewave) per renderla applicabile a diverse situazioni meteorologiche
-- Migliorare la previsione dettagliata dell'innesco di una termica per renderla più accurata e completa
+To use this application, run the following command in the terminal:
 
-## Licenza
+`node proxy`  
+`npm start`
 
-L'applicazione è rilasciata sotto la licenza [MIT](https://opensource.org/licenses/MIT).	 
+
+This will start the application and generate a cross section of the mountain based on the elevations data.
+
+## Dependencies
+
+This project uses the following dependencies:
+
+- React
+- axios
+- GeographicLib
+- Plotly.js
+
+## Contributing
+
+Contributions to this project are welcome. To contribute, simply fork the repository, create a new branch, make your changes, and submit a pull request.
+
+## Todo List
+
+- [x] Rendering 3D and 2D
+
+![Rendering 2D](./public/image1.png)
+![Rendering 3D](./public/image2.png)
+
+- [ ] Lee wave
+- [ ] Thermal spot
+
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
