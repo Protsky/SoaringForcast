@@ -4,12 +4,9 @@ require('dotenv').config()
 
 const app = express();
 
-const apiKey = process.env.API_KEY
-
-
 app.get("/elevation", async (req, res) => {
   const { lat, lng } = req.query;
-  const url = `https://maps.googleapis.com/maps/api/elevation/json?locations=${lat},${lng}&key=${apiKey}`;
+  const url = `http://localhost:5000/v1/swisstopo-2m?locations=${lat},${lng}`;
 
   try {
     const response = await axios.get(url);
