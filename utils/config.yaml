@@ -1,0 +1,6 @@
+datasets:
+- name: swisstopo-2m
+  path: data/swisstopo-2m/
+  filename_epsg: 2056
+  filename_tile_size: 1000
+
