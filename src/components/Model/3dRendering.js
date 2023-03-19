@@ -3,17 +3,17 @@ import axios from "axios";
 import Plot from "react-plotly.js";
 
 const MountainElevations = () => {
-  const corner1 = [45.98547, 7.63840];
-  const corner2 = [45.98565, 7.67908];
-  const corner3 = [45.96709, 7.67844];
-  const corner4 = [45.96755, 7.63776];
+  const corner1 = [46.03638, 7.60900];
+  const corner2 = [46.03644, 7.61383];
+  const corner3 = [46.03292, 7.61404];
+  const corner4 = [46.03280, 7.60893];
 
   const minLat = Math.min(corner1[0], corner2[0], corner3[0], corner4[0]);
   const maxLat = Math.max(corner1[0], corner2[0], corner3[0], corner4[0]);
   const minLng = Math.min(corner1[1], corner2[1], corner3[1], corner4[1]);
   const maxLng = Math.max(corner1[1], corner2[1], corner3[1], corner4[1]);
 
-  const stepSize = 0.0001; // approximately 10 meters
+  const stepSize = 0.0001 // 1.11 m resolution
   const numPointsLat = Math.floor((maxLat - minLat) / stepSize);
   const numPointsLng = Math.floor((maxLng - minLng) / stepSize);
 
